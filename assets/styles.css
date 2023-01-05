@@ -90,11 +90,12 @@ header p {
   height: 100% ;
 }
 
-.card-column:hover, .card-column h3 {
-  transition: all 0.5s; ease-in-out;
-  box-shadow: inset 0px 0px 8px
+.card-column:hover, 
+.card-column:hover h3 {
+  transition: all 0.5s ease-in-out;
+  box-shadow: inset 0px 0px  8px 
   var(--light-purple), 0 0 15px
-  var(--light-purple)
+  var(--light-purple) ;
 }
 
 
